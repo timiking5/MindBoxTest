@@ -1,4 +1,6 @@
-﻿namespace ShapeLibrary;
+﻿global using ShapeLibrary.SquareCounters;
+
+namespace ShapeLibrary.Figures;
 
 /// <summary>
 /// Я сильно задумался над тем, стоит ли создавать общего родителя для фигур. Также думал,
@@ -8,11 +10,8 @@
 /// </summary>
 public abstract class Figure
 {
-    protected readonly ISquareCounter _squareCounter;
-    public Figure(ISquareCounter squareCounter)
-    {
-        _squareCounter = squareCounter;
-    }
+    protected ISquareCounter _squareCounter;  // = null!;
+
     public double CountSquare()
     {
         return _squareCounter.CalcSquare(this);

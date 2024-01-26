@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeLibrary", "ShapeLibrar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationTest", "CalculationTest\CalculationTest.csproj", "{7C75C281-6591-42D9-8DA3-3669CEF1EE40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlTest", "SqlTest\SqlTest.csproj", "{5AF8FDFE-01D1-41EB-B8EB-D9331A2785FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7C75C281-6591-42D9-8DA3-3669CEF1EE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C75C281-6591-42D9-8DA3-3669CEF1EE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C75C281-6591-42D9-8DA3-3669CEF1EE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF8FDFE-01D1-41EB-B8EB-D9331A2785FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF8FDFE-01D1-41EB-B8EB-D9331A2785FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF8FDFE-01D1-41EB-B8EB-D9331A2785FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF8FDFE-01D1-41EB-B8EB-D9331A2785FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

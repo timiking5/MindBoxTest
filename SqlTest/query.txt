@@ -1,0 +1,6 @@
+select P.`name`, C.`categoryName` 
+from `Product` as P
+left join `ProductWithCategory` as PC
+on P.`prodId` = PC.`prodId`
+left join `Category` as C
+on PC.`categId` = C.`categId`;
